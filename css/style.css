@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #195774;
+  --secondary-color: #6eacdf;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+label {
+  display: block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  width: 86%;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+input {
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  width: 26%;
+  border-radius: 11px;
+  border: 6px solid var(--secondary-color);
+  color: var(--primary-color);
+}
+/* container  */
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+#outputBox {
+  padding: 2rem;
+  width: 50%;
+  margin: 1rem auto;
+  text-align: center;
+  color: #2c3531;
+  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border: 3px solid var(--secondary-color);
+  border-radius: 26px;
+}
+.btn {
+  margin: 1rem auto;
+  width: 15%;
+  height: 7vh;
+  border: 3px solid var(--secondary-color);
+  border-radius: 17px;
+  display: block;
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon ul li {
+  list-style: none;
+}
+.icon i {
+  color: var(--secondary-color);
+  padding: 0.5rem;
+}
